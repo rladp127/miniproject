@@ -19,7 +19,7 @@ void search(Product *plist, int count); // 제품 이름 검색
 void listProduct(Product *plist, int count);
 int selectDataNo(Product *plist, int count);
 
-void saveData(Product *plist, int count); 
-int loadData(Product *plist); // 파일 저장
+void saveData(Product *plist, int count); // 파일 저장 
+int loadData(Product *plist); // 파일 불러오기
 
 #endif
